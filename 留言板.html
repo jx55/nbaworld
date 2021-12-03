@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>留言板</title>
+		<link href="css/liuyanban.css" type="text/css" rel="stylesheet" />
+		<script src="js/liuyanban.js"></script>
+	</head>
+	<body>
+		<h1>留言板</h1>
+		<table id="userTable" border="1px">
+			<tr>
+				<th>用户名</th>
+				<th>联系方式</th>
+				<th>留言内容</th>
+				<th>&nbsp;</th>
+			</tr>
+			<tr>
+				<td>Tom</td>
+				<td>tom@tom.com</td>
+				<td>新闻报道很及时，比赛更新也很迅速！</td>
+				<td><a href="javascript:;">delete</a></td>
+			</tr>
+			<tr>
+				<td>Jeery</td>
+				<td>jeery@jerry.com</td>
+				<td>感觉还缺少一些功能，像加好友啊这些的。。</td>
+				<td><a href="javascript:;">delete</a></td>
+			</tr>
+			<tr>
+				<td>Bob</td>
+				<td>bob@bob.com</td>
+				<td>网页功能有点单一了，只有篮球，什么时候补充别的啊？</td>
+				<td><a href="javascript:;">delete</a></td>
+			</tr>
+		</table>
+		<div id="formDiv">
+			<h4>添加留言</h4>
+			<table>
+				<tr>
+					<td class="word">用户名:</td>
+					<td class="inp"><input type="text" name="userName" id="userName" /></td>
+				</tr>
+				<tr>
+					<td class="word">联系方式:</td>
+					<td class="inp"><input type="text" name="email" id="email" /></td>
+				</tr>
+				<tr>
+					<td class="word">留言内容:</td>
+					<td class="inp"><input type="text" name="content" id="content" /></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><button id="addUserButton" value="abc">submit</button></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
